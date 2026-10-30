@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/88lin/workbuddy-auto-signin",
+  "commit": "8c66f4b31676bc238663759872a9592ee0e10723",
+  "files": [
+    "qoder_signin.py",
+    "install-qoder-windows.ps1"
+  ],
+  "license": "MIT"
+}
