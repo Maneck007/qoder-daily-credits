@@ -1,5 +1,7 @@
 # Qoder Daily Credits · Windows 安装包
 
+[![Checks](https://github.com/Maneck007/qoder-daily-credits/actions/workflows/checks.yml/badge.svg)](https://github.com/Maneck007/qoder-daily-credits/actions/workflows/checks.yml)
+
 给 [88lin/workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin) 的 Qoder CN 功能补充一套中文安装入口：解压后双击 `install.bat`，检查 Python、安装计划任务并运行离线自检。
 
 领取逻辑和计划任务安装脚本来自上游，本项目的工作是 Windows 打包、安装引导与文档整理。它不是 Qoder 官方工具，也不宣称原创了领取接口或认证实现。
@@ -44,3 +46,5 @@ python -m unittest discover -s tests -v
 ```
 
 测试来自同一上游快照，使用模拟网络和隔离的计划任务模块；不为测试真实领取积分。活动和客户端私有协议可能随时改变。接口问题优先检查上游修复；本仓库的安装和打包问题请提交 [Issue](https://github.com/Maneck007/qoder-daily-credits/issues)。
+
+维护和贡献流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
